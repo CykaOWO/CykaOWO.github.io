@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Asyncx</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2020-05-19T05:09:36.144Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2020/05/19/hello-world/"/>
+    <id>http://yoursite.com/2020/05/19/hello-world/</id>
+    <published>2020-05-19T05:28:28.786Z</published>
+    <updated>2020-05-19T05:09:36.144Z</updated>
+    
+    <content type="html"><![CDATA[<p>day 1<br>个人博客制作完成。</p><p>具体内容编辑预定于周三前完成。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;day 1&lt;br&gt;个人博客制作完成。&lt;/p&gt;
+&lt;p&gt;具体内容编辑预定于周三前完成。&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
