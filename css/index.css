@@ -100,8 +100,8 @@ hr:before {
   transition: all 1s ease-in-out;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
-  font-weight: normal;
-  font-family: FontAwesome;
+  font-weight: 600;
+  font-family: 'Font Awesome 5 Free';
 }
 iframe {
   margin: 0 0 1rem;
@@ -2072,7 +2072,7 @@ blockquote footer cite:before {
 }
 @media screen and (min-width: 900px) {
   #aside_content .card-widget {
-    margin-left: 15px;
+    margin-right: 15px;
   }
 }
 .category-content ol,
@@ -3653,6 +3653,22 @@ blockquote footer cite:before {
     height: auto;
   }
 }
+@media screen and (min-width: 900px) {
+  #recent-posts,
+  #page,
+  .category-content,
+  #archive,
+  .tag-cloud,
+  #tag,
+  #category {
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    -o-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2;
+  }
+}
 @media screen and (max-width: 900px) {
   .layout_page > div:first-child:not(.recent-posts) {
     width: 100% !important;
@@ -3819,8 +3835,8 @@ blockquote footer cite:before {
   transition: all 0.2s ease-out;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
-  font-weight: normal;
-  font-family: FontAwesome;
+  font-weight: 600;
+  font-family: 'Font Awesome 5 Free';
 }
 #article-container.post-content h1:hover:before,
 #article-container.post-content h2:hover:before,
@@ -4992,7 +5008,8 @@ figure.gallery-group .gallery-group-name:after {
   top: 13px;
   left: 15px;
   font-size: larger;
-  font-family: 'FontAwesome';
+  font-weight: 600;
+  font-family: 'Font Awesome 5 Free';
 }
 .note.default {
   background-color: #f7f7f7;
